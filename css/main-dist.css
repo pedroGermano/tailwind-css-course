@@ -556,24 +556,49 @@ video {
   display: none;
 }
 
-.font-fontPrimary{
-  font-family: Inter, sans-serif;
+.flex{
+  display: flex;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.max-h-12{
+  max-height: 3rem;
 }
 
-.font-bold{
-  font-weight: 700;
+.max-w-12{
+  max-width: 3rem;
 }
 
-.text-primary{
-  --tw-text-opacity: 1;
-  color: rgb(238 1 129 / var(--tw-text-opacity));
+.items-center{
+  align-items: center;
 }
 
-.underline{
-  text-decoration-line: underline;
+.justify-between{
+  justify-content: space-between;
+}
+
+.gap-2{
+  gap: 0.5rem;
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.p-3{
+  padding: 0.75rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.font-medium{
+  font-weight: 500;
 }
