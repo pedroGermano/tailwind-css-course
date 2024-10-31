@@ -13,15 +13,19 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="p-3 flex bg-white justify-between items-center">
-      <a class="flex gap-2 items-center" id="brand" href="#">
+    <nav class="flex items-center justify-between p-3 bg-white">
+      <a class="flex items-center gap-2" id="brand" href="#">
         <img
           class="object-cover max-w-12 max-h-12"
           src="./assets/asset 0.png"
           alt="Logo"
         />
-        <span class="text-lg font-medium">ToDesktop</span>
+        <span class="text-lg font-medium font-display">ToDesktop</span>
       </a>
+      <button class="p-2 md:hidden" onclick="handleMenu()">
+        <i class="text-gray-600 fa-solid fa-bars"></i>
+      </button>
     </nav>
+    <script src="js/main.js"></script>
   </body>
 </html>
